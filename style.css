@@ -9,8 +9,8 @@ H1,H2{
 	font-family:"Montserrat", "MS Sans Serif", "MS Serif", Arial, "Times New Roman", "Trebuchet MS";
 }
 
-.navbar-color { 
-color:#333; 
+.navbar-color {
+color:#333;
 background-color:#f6f5f2;
 background: rgb(255,255,255); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%); /* FF3.6-15 */
@@ -18,8 +18,8 @@ background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(242,242,24
 background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
 }
-	
-.padding-brand{ 
+
+.padding-brand{
 padding:0px; height:auto; position:relative; padding: 8px 0;}
 
 .nav{
@@ -28,14 +28,14 @@ padding-right:50px;}
 /* >>> Header <<< */
 
 /* >>> Header Slider<<< */
-#header{ 
+#header{
 padding:0;
 margin-top: 67px;
 }
 
 .jumbotron {
 	position:relative;
-	background:url(gambar/home-banner.jpg);
+	background:url(Gambar/home-banner.jpg);
 	color:fff;
 	width:100%;
 	height:100%;
@@ -212,7 +212,7 @@ padding:10px 0px 10px 25px;
 .navbar { height: 84px;
 }
 
-.navbar-brand { 
+.navbar-brand {
 width: 220px;
 }
 
@@ -275,15 +275,15 @@ width: 220px;
 /* >>> Navbar & Logo <<< */
 
 .navbar { height: 80px}
-.navbar-brand { 
-padding: 20px 20px; 
+.navbar-brand {
+padding: 20px 20px;
 max-width: 250px;
 }
 
-.navbar-brand img { 
+.navbar-brand img {
 display:inline-block;
 padding-bottom:10px;
-position:relative; 
+position:relative;
 max-width: 100%;
 height:60px;
 }
@@ -310,7 +310,7 @@ height:60px;
 .huruf{
 	font-size:20px;
 	font-weight:bolder;
-	
+
 }
 
 
@@ -327,7 +327,7 @@ height:60px;
 .huruf{
 	font-size:20px;
 	font-weight:bolder;
-	
+
 }
 
 
@@ -340,8 +340,8 @@ height:60px;
 }
 .container-up{
       margin:-30px 30px 0 0;}
-	  
-	  
+
+
 .image{
       margin:0 80px 0 0;
  }
@@ -394,22 +394,22 @@ height:60px;
 }
 
 @media only screen and (max-width: 1280px)  {
-	}	
+	}
 	@media only screen and (min-width: 992px) and (max-width: 1199px)  {
-		
+
 	}
-		
-	@media only screen and (min-width: 768px) and (max-width: 991px) {	
-	
+
+	@media only screen and (min-width: 768px) and (max-width: 991px) {
+
 	}
-	
+
 	@media only screen and (max-width: 767px) {
-	
-		
+
+
 	}
-	
-	@media only screen and (max-width: 479px) {	 	
-		
+
+	@media only screen and (max-width: 479px) {
+
 	}
 
 
