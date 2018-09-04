@@ -1,0 +1,478 @@
+/* >>> Index.html <<< */
+body{
+	margin:0;
+	padding:0;
+}
+
+
+H1,H2{
+	font-family:"Montserrat", "MS Sans Serif", "MS Serif", Arial, "Times New Roman", "Trebuchet MS";
+}
+
+.navbar-color { 
+color:#333; 
+background-color:#f6f5f2;
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+}
+	
+.padding-brand{ 
+padding:0px; height:auto; position:relative; padding: 8px 0;}
+
+.nav{
+padding-right:50px;}
+
+/* >>> Header <<< */
+
+/* >>> Header Slider<<< */
+#header{ 
+padding:0;
+margin-top: 67px;
+}
+
+.jumbotron {
+	position:relative;
+	background:url(gambar/home-banner.jpg);
+	color:fff;
+	width:100%;
+	height:100%;
+	background-size:cover;
+	overflow:hidden;
+	background-repeat:no-repeat;
+}
+.text{
+	color:#FFFFFF;
+}
+
+
+/* >>> Form <<< */
+section {
+    padding:15px 0 0 0  ;
+    text-align: center;
+}
+select.frecuency {
+    border: none;
+    font-style: italic;
+    background-color: transparent;
+    cursor: pointer;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: -webkit-transform .35s ease-in;
+    transition: -webkit-transform .35s ease-in;
+    border-bottom: none;
+}
+select.frecuency:focus {
+    outline: none;
+    border-bottom: 5px solid #39b3d7;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    -webkit-transition: -webkit-transform .35s ease-in;
+    transition: -webkit-transform .35s ease-in;
+}
+.free {
+    text-transform: uppercase;
+	font-weight:bolder;
+	font-size: 56px;
+}
+.input-group {
+    margin: 25px auto;
+    width: 100%;
+}
+input.btn.btn-lg,
+input.btn.btn-lg:focus {
+    outline: none;
+    width: 60%;
+    height: 60px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+button.btn {
+    width: 40%;
+    height: 60px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.promise {
+    color: #999;
+}
+
+/* >>> Kenapa Bisnis Guru <<< */
+.xrow{
+	position:relative;
+	width:60%;
+	height:20%;
+	margin-left:20%;
+	margin-top:-70px;
+}
+
+.tagline{
+	font-size: 21px;
+}
+
+.callout-light {
+    padding:2px 0 2px 0;
+	background-color:#ecf0f1;
+}
+.huruf1{	color: #0000000;
+}
+.huruf{
+	text-align:center;
+	line-height: 1.4;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+/* >>> Fitur Bisnis Guru <<< */
+
+ .container-new {
+  margin-top:40px;
+  background:#ecf0f1;
+  padding-bottom:40px;
+}
+.container-down
+{
+      padding-top: 40px ;
+	  padding-left:80px;
+	  margin-left:50px;
+}
+ .container-up {
+      padding-top: 40px ;
+	  padding-left:80px;
+	  margin-left:50px;
+}
+.image{
+	margin-left:30px;
+}
+.list-group-item-heading{
+	padding-top:20px;
+	font:"Trebuchet MS", Montserrat;
+	font-weight:bold;
+}
+
+.list-group-item-text{
+	font-size:20px;
+	font-family:"Trebuchet MS", Montserrat, Times New Roman, Arial;
+	font-weight:400;
+}
+
+/* >>> Subricbe (Ayo Tunggu Apalagi) <<< */
+
+.subrcibe{
+	background:#155986;
+	width:100%;
+	height: 280px;
+	margin-top:20px;
+}
+
+
+.surat{
+border-right:5px solid #FFFFFF;
+height:240px;
+margin:20px 10px 0 10px;
+padding:10px 0px 10px 25px;
+}
+
+.border{
+	border-right:5px solid #000000;
+	height:250px;
+
+
+}
+
+.tunggu {
+	margin:0 50px 0 0;
+	padding:30px 0 0 10px;
+	color:#FCFCFC;
+	font-size:34px;
+	font-weight:bolder;
+}
+
+.kanan{
+	margin-left:40px;
+}
+
+
+/* >>> Subricbe (Ayo Tunggu Apalagi) <<< */
+.copyright{
+	text-align:center;
+	background:#2c3e50;
+	color:#FFFFFF;
+	width:100%;
+	height: 40px;
+	padding-top:10px;
+}
+
+/* >>> Responsive Mobile <<< */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/* >>> Navbar & Logo <<< */
+.navbar { height: 84px;
+}
+
+.navbar-brand { 
+width: 220px;
+}
+
+/* >>> Header <<< */
+.free{
+	font-size:24px;
+	font-weight:bold;
+}
+
+.huruf{
+	font-size:30px;
+	font-weight:bolder;
+}
+
+.tagline{
+	font-size:21px;
+	padding:0 28px 0 28px;
+}
+
+
+/* >>> subcribe <<< */
+
+.surat{
+	visibility:hidden;
+}
+.kanan{
+	margin-top:-280px;
+}
+.tunggu{
+	margin-top:20px;
+	font-size:25px;
+	font-weight:bold;
+}
+.subrcibe{
+	height: 250px;
+
+}
+
+.button{
+	margin-top:40px;
+	padding:0 450px 0 450px;
+}
+
+
+.col-md-7{
+	width:90%;
+
+}
+
+
+}
+
+
+
+/* >>> Layar 767px <<< */
+
+
+@media only screen and (max-width: 767px) {
+
+/* >>> Navbar & Logo <<< */
+
+.navbar { height: 80px}
+.navbar-brand { 
+padding: 20px 20px; 
+max-width: 250px;
+}
+
+.navbar-brand img { 
+display:inline-block;
+padding-bottom:10px;
+position:relative; 
+max-width: 100%;
+height:60px;
+}
+
+/* >>>  Header  <<< */
+
+.free{
+	font-size:56px;
+	font-weight:bold;
+}
+
+.tagline{
+	font-size:24px;
+	padding:0 28px 0 28px;
+}
+.sl-12{
+	font-size:18px;
+	font-weight:bolder;
+}
+.slider-H2{
+	font-size:12px;
+	font-weight:bold
+}
+.huruf{
+	font-size:20px;
+	font-weight:bolder;
+	
+}
+
+
+.slider-H2:{
+	font-size:12px;
+	font-weight:bold
+
+}
+
+.button{
+	padding-top:5px;
+}
+
+.huruf{
+	font-size:20px;
+	font-weight:bolder;
+	
+}
+
+
+/* >>> Fitur Bisnis guru <<< */
+
+.container-down
+{
+	margin-top:30px;
+
+}
+.container-up{
+      margin:-30px 30px 0 0;}
+	  
+	  
+.image{
+      margin:0 80px 0 0;
+ }
+.list-group-item-heading{
+	font-family:Montserrat, "Trebuchet MS", Arial, "Times New Roman" ;
+	padding-top:20px;
+	font-size:18px;
+	font-weight:bold;
+
+}
+
+
+.list-group-item-text{
+	font-family: Montserrat,"Trebuchet MS", Arial,  "Times New Roman" ;
+	font-size:16px;
+	font-weight:400;
+}
+
+
+
+.container-down{
+	margin:0;
+
+}
+
+
+/* >>> subcribe <<< */
+.surat{
+	visibility:hidden;
+}
+.kanan{
+	margin-top:-280px;
+}
+.tunggu{
+	margin-top:20px;
+	font-size:25px;
+	font-weight:bold;
+}
+.subrcibe{
+	height: 250px;
+
+}
+
+
+.col-md-7{
+	width:90%;
+
+}
+
+}
+
+@media only screen and (max-width: 1280px)  {
+	}	
+	@media only screen and (min-width: 992px) and (max-width: 1199px)  {
+		
+	}
+		
+	@media only screen and (min-width: 768px) and (max-width: 991px) {	
+	
+	}
+	
+	@media only screen and (max-width: 767px) {
+	
+		
+	}
+	
+	@media only screen and (max-width: 479px) {	 	
+		
+	}
+
+
+
+/* >>> Page Thankyou.html <<< */
+
+/* >>> Head Background <<< */
+#head-background {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 430px;
+  background:url(gambar/home-banner.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+/* >>> Terima Kasih Telah Mendaftar! <<< */
+.slider-h2{
+	padding-top:28px;
+	font-size:38px;
+}
+/* >>> >Kami Akan Mengirim Langkah Selanjutnya Via Email <<< */
+.slider-12{
+	font-size:38px;
+	padding-bottom:20px;
+}
+
+/* >>> Responsive Mobile <<< */
+/* >>> Button <<< */
+@media only screen and (max-width: 767px) {
+.btn{
+	margin-top:-15px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-user{
+	padding:14px 0 0 0;
+}
+
+
+
+
+
+
+
+.dropdown-menu{width:420px;}
+.dropdown-menu.setting{width:140px;min-width: 143px;}
